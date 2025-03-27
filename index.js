@@ -30,11 +30,11 @@ function handleSubmit(event) {
     // Determine the correct URL based on the selected field
     let url;
     if (selectedField === 'Engineering') {
-      url = 'http://localhost:3000/ENGINEERING';
+      url = 'https://backend-for-my-app-38oa.onrender.com/api/ENGINEERING';
     } else if (selectedField === 'Medicine') {
-      url = 'http://localhost:3000/MEDICINE';
+      url = 'https://backend-for-my-app-38oa.onrender.com/api/MEDICINE';
     } else if (selectedField === 'Law') {
-      url = 'http://localhost:3000/LAW';
+      url = 'https://backend-for-my-app-38oa.onrender.com/api/LAW';
     } else {
       alert('Invalid field selected');
       return;
@@ -117,7 +117,7 @@ function submitComment(event) {
   };
 
   // Send POST request to JSON server
-  fetch('http://localhost:3000/POSTS', {
+  fetch('https://backend-for-my-app-38oa.onrender.com/api/POSTS', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -156,7 +156,7 @@ function fetchAndDisplayTestimonials() {
   testimonialsContainer.innerHTML = '';
 
   // Fetch data from the local host
-  fetch('http://localhost:3000/POSTS')
+  fetch('https://backend-for-my-app-38oa.onrender.com/api/POSTS')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
