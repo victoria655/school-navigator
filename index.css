@@ -1,0 +1,372 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.about {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.about .video-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.about h1, .about h2, .about p {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.media-icons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.media-icons a:hover {
+    color: #ffd700;
+}
+/*
+
+.testimonials {
+    position: relative;
+    height: 900px;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/girl.png);
+}
+
+
+.testimonials .one {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 2;
+    width: 200px;
+    height: 300px;
+} */
+
+.form {
+    position: relative;
+    height: 900px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.form .video-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.form form {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.input {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.institutions {
+    position: relative;
+    height: 900px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.websites{
+    position: relative;
+    height: 900px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    position: absolute;
+    left: 10px; /* Adjust for desired positioning */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navigation button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+    background-color: #2980b9;
+}
+.input label, .input input {
+    display: inline-block;
+    margin-right: 10px; /* Add spacing */
+}
+
+.inputting{
+    width: 600px;
+    background-color: transparent;
+    color: #fff;
+}
+.photo1{
+    width: 80;
+    height: 80px;
+    border: 2px;
+    border-radius: 50%;
+}
+.institutions {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  .institution-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .institution-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    object-fit: cover;
+  }
+  
+  .institution-card h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    color:#fff;
+  }
+  
+  .institution-card .country {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .institution-card .description {
+    text-align: center;
+    margin: 10px 0;
+    color:#fff;
+    line-height: 1.4;
+    font-size: 14px;
+    flex-grow: 1;
+  }
+  
+  .institution-card .date {
+    text-align: center;
+    font-style: italic;
+    color:#fff;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  
+  .websites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button[type="submit"] {
+  align-self: flex-end;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.testimonials {
+    position: relative;
+    height: 900px;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/girl.png);
+}
+
+.testimonials .one {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 2;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .one img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials .one h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.testimonials .one p {
+    margin: 0;
+    font-size: 14px;
+    max-width: 180px;
+    text-align: center;
+}
