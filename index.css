@@ -143,6 +143,22 @@ body, html {
     background-size: cover;
 
 }
+.information{
+    
+    position: relative;
+    height: 900px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
 .websites{
     position: relative;
     height: 900px;
@@ -369,4 +385,479 @@ button[type="submit"]:hover {
     font-size: 14px;
     max-width: 180px;
     text-align: center;
+}
+/* Add these styles to your CSS */
+.institution-details {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+.application-tracking {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    z-index: 100;
+}
+
+#check-responses {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#check-responses:hover {
+    background-color: #45a049;
+}
+.application-tracking {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    z-index: 100;
+}
+
+#check-responses {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#check-responses:hover {
+    background-color: #45a049;
+}
+.institution-card button.apply-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.institution-card button.apply-btn:hover {
+    background-color: #45a049;
+}
+.institution-details {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.institution-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.institution-info-left {
+    flex: 1;
+}
+
+.institution-meta {
+    margin-top: 10px;
+}
+
+.institution-image-container {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.institution-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.institution-description {
+    margin-bottom: 20px;
+}
+
+.application-form {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.application-form h4 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input,
+.input textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.institution-details {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.institution-header {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.institution-info-left {
+    margin-bottom: 20px;
+}
+
+.institution-description {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.application-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.application-form h4 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input,
+.input textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .about, .form, .institutions, .information, .websites, .testimonials {
+        padding: 30px;
+    }
+
+    .about h1, .about h2, .about p {
+        font-size: 20px;
+    }
+
+    .media-icons {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .form form {
+        padding: 15px;
+    }
+
+    .input input, .input textarea {
+        font-size: 14px;
+    }
+
+    .institutions, .information, .websites, .testimonials {
+        height: auto;
+    }
+
+    .testimonials .one {
+        width: 100%;
+        height: auto;
+    }
+
+    .institution-card {
+        height: auto;
+    }
+
+    .application-tracking {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about, .form, .institutions, .information, .websites, .testimonials {
+        padding: 20px;
+    }
+
+    .about h1, .about h2, .about p {
+        font-size: 18px;
+    }
+
+    .media-icons {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .form form {
+        padding: 15px;
+    }
+
+    .input input, .input textarea {
+        font-size: 14px;
+    }
+
+    .institutions, .information, .websites, .testimonials {
+        height: auto;
+    }
+
+    .testimonials .one {
+        width: 100%;
+        height: auto;
+    }
+
+    .institution-card {
+        height: auto;
+    }
+
+    .application-tracking {
+        position: static;
+        margin-top: 20px;
+    }
+    .form form {
+        padding: 15px;
+        max-width: 400px;
+      }
+      
+      .input label {
+        font-size: 14px;
+      }
+      
+      .input input, .input textarea {
+        font-size: 14px;
+        padding: 8px;
+      }
+      
+      .inputting {
+        width: 400px;
+      }
+      
+      button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+    }
+    
+
+
+@media (max-width: 480px) {
+    .about, .form, .institutions, .information, .websites, .testimonials {
+        padding: 10px;
+    }
+
+    .about h1, .about h2, .about p {
+        font-size: 14px;
+    }
+
+    .media-icons a {
+        font-size: 20px;
+    }
+
+    .form form {
+        padding: 10px;
+    }
+
+    .input input, .input textarea {
+        font-size: 12px;
+    }
+
+    .testimonials .one img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonials .one h3 {
+        font-size: 14px;
+    }
+
+    .testimonials .one p {
+        font-size: 12px;
+    }
+
+    .institution-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .institution-card h3 {
+        font-size: 14px;
+    }
+
+    .institution-card .country, .institution-card .description, .institution-card .date {
+        font-size: 12px;
+    }
+
+    .application-tracking {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+/* Additional Media Queries for Phone Sizes */
+@media (max-width: 360px) {
+    .about, .form, .institutions, .information, .websites, .testimonials {
+        padding: 8px;
+    }
+
+    .about h1, .about h2, .about p {
+        font-size: 12px;
+    }
+
+    .media-icons a {
+        font-size: 18px;
+    }
+
+    .form form {
+        padding: 8px;
+    }
+
+    .input input, .input textarea {
+        font-size: 10px;
+    }
+
+    .testimonials .one img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonials .one h3 {
+        font-size: 12px;
+    }
+
+    .testimonials .one p {
+        font-size: 10px;
+    }
+
+    .institution-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .institution-card h3 {
+        font-size: 12px;
+    }
+
+    .institution-card .country, .institution-card .description, .institution-card .date {
+        font-size: 10px;
+    }
+
+    .application-tracking {
+        position: static;
+        margin-top: 15px;
+        padding: 8px;
+    }
+
+    #check-responses {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .form form {
+        padding: 10px;
+        max-width: 300px;
+      }
+      
+      .input label {
+        font-size: 12px;
+      }
+      
+      .input input, .input textarea {
+        font-size: 12px;
+        padding: 6px;
+      }
+      
+      .inputting {
+        width: 250px;
+      }
+      
+      button[type="submit"] {
+        padding: 6px 12px;
+        font-size: 12px;
+      }
 }
