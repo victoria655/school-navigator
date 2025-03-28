@@ -736,10 +736,7 @@ button[type="submit"]:hover {
         font-size: 14px;
     }
 
-    .media-icons a {
-        font-size: 20px;
-    }
-
+    
     .form form {
         padding: 10px;
     }
@@ -774,10 +771,69 @@ button[type="submit"]:hover {
         font-size: 12px;
     }
 
-    .application-tracking {
+    .media-icons {
+        flex-direction: row;
         position: static;
-        margin-top: 20px;
-    }
+        top: auto;
+        transform: none;
+        justify-content: center;
+        margin: 10px 0;
+      }
+      
+      .media-icons a {
+        margin: 0 10px;
+      }
+      
+      .about h1, .about h2, .about p {
+        font-size: 16px;
+        padding: 6px 12px;
+      }
+      
+      .input input, .input textarea {
+        font-size: 12px;
+        padding: 6px;
+      }
+      
+      .institution-card {
+        height: auto;
+        padding: 10px;
+        grid-template-columns: 1fr;
+      }
+      
+      .institution-card img {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .institution-details {
+        padding: 12px;
+        margin: 15px;
+      }
+      
+      .application-form {
+        padding: 12px;
+        max-width: 100%;
+      }
+      
+      .application-tracking {
+        max-width: 200px;
+        padding: 10px;
+        font-size: 12px;
+      }
+      
+      #check-responses {
+        padding: 5px 10px;
+        font-size: 10px;
+      }
+      
+      .navigation {
+        left: 5px;
+      }
+      
+      .navigation button {
+        width: 8px;
+        height: 8px;
+      }
 }
 
 /* Additional Media Queries for Phone Sizes */
